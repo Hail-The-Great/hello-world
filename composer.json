@@ -1,0 +1,19 @@
+{
+    "name": "hail-the-great/hello-world",
+    "description": "test composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ddt",
+            "email": "2420571831@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Pack\\Test\\": "src/"
+        }
+    },
+    "require": {}
+}
