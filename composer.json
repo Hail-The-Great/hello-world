@@ -9,11 +9,5 @@
             "email": "2420571831@qq.com"
         }
     ],
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {
-            "Pack\\Test\\": "src/"
-        }
-    },
-    "require": {}
+    "minimum-stability": "stable"
 }
