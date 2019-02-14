@@ -1,18 +1,36 @@
 {
-    "name": "hail-the-great/hello-world",
-    "description": "test composer",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
+	"name":"hail-the-great/hello-world",
+	"description": "custom dependency package install path",
+	"type":"project",
+	"license": "Apache-2.0",
+	"authors": [
         {
             "name": "ddt",
             "email": "2420571831@qq.com"
         }
     ],
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {
-            "think\\": "src"
-        }
-    }
+	"require": {
+        "php": ">=5.4.0",
+        "hail-the-great/core": "1.0.*"
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+	"repositories":[
+		{
+			"type":"git",
+			"url": "https://github.com/Hail-The-Great/core.git"
+		},
+		{
+			"type":"git",
+			"url": "https://github.com/Hail-The-Great/installer.git"
+		},
+		{
+			"type":"git",
+			"url": "https://github.com/Hail-The-Great/hello-world.git"
+		}
+	]
 }
