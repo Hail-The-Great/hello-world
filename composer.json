@@ -11,7 +11,7 @@
     ],
 	"require": {
         "php": ">=5.4.0",
-        "hail-the-great/core": "*"
+        "hail-the-great/core": "dev-master"
     },
     "extra": {
         "think-path": "thinkphp"
